@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.title {
+    text-align: left;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#time {
+    text-align: left;
+    font-weight: bold;
+    /* margin-top: 20px; */
+}
+
+/* Định dạng button */
+.random-button {
+    width: 150px;
+    height: 150px;
+    background-color: #579be3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+}
+
+.random1-button {
+    width: 250px;
+    height: 250px;
+    background-color: #df6363;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+}
+
+.random2-button {
+    width: 100px;
+    height: 100px;
+    background-color: #dfc663;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    /* Đặt vị trí tuyệt đối */
+}
+
+.triangle-button {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent; /* Điều chỉnh kích thước tam giác tại đây */
+    border-right: 75px solid transparent;
+    border-bottom: 130px solid #e86382; /* Màu và chiều cao tam giác */
+    border-radius: 0;
+    cursor: pointer;
+    position: absolute;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.circle-button {
+    width: 150px; /* Đường kính của hình tròn */
+    height: 150px; /* Đường kính của hình tròn */
+    background-color: #2d86a7fe;
+    color: #fff;
+    border-radius: 50%; /* Làm tròn để tạo hình tròn */
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.circle1-button {
+    width: 100px; /* Đường kính của hình tròn */
+    height: 100px; /* Đường kính của hình tròn */
+    background-color: #35a72dfe;
+    color: #fff;
+    border-radius: 50%; /* Làm tròn để tạo hình tròn */
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
+
+.circle2-button {
+    width: 250px; /* Đường kính của hình tròn */
+    height: 250px; /* Đường kính của hình tròn */
+    background-color: #a32da7fe;
+    color: #fff;
+    border-radius: 50%; /* Làm tròn để tạo hình tròn */
+    border: none;
+    cursor: pointer;
+    position: absolute;
+}
